@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wordpress Theme</title>
+</head>
+<body>
+<div id="mainDiv">
+	<div id="headerDiv"></div>
+	<div id="mainContent">
+		<img src="wordpresstheme.jpg"/>
+		<p>Upload a theme<input type="button" name="file" value="Browse...">No file selected.</p>
+		<p>Or search in wordpress<input type="text" name="searchWordPress"><img src="wordpresslogo.jpg" id="logo"/></p>
+	</div>
+</div>
+<style type="text/css">
+	#mainDiv{
+		width: 500px;
+		height: 300px;
+		margin-left: 300px;
+		border: 1px solid black;
+	}
+	#headerDiv{
+		width: 100%;
+		height: 40px;
+		background-color: rgba(40, 35, 35, 0.8);
+	}
+	#mainContent{
+		margin-left: 50px;
+		position: relative;
+	}
+	input{
+		margin: 0px 5px;
+	}
+	#logo{
+		width: 30px;
+		height: 25px;
+		top: 2px;
+	}
+	input[type="text"]{
+		height: 30px;
+	}
+	</style>
+</body>
+</html>
